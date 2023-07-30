@@ -1,0 +1,47 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+.header__ttl {
+    padding: 0 30px;
+    color:darkblue ;
+}
+.header__nav-list {
+    display: flex;
+    margin-right: 30px;
+    list-style: none;
+    color: darkblue;
+    font-weight: bold;
+}
+.header__nav-item:not(:last-child) {
+    margin-right: 50px;
+}
+.firstview {
+    position: relative;
+    margin:60px 0 0px;
+}
+.firstview__img {
+    position: absolute;
+    width: 50%;
+    left: 50%;
+    display: block;
+    z-index: 10;
+}
+.firstview__ttl {
+    position: absolute;
+    font-size: 70px;
+    font-weight: lighter;
+    margin: 0;
+    top: 270px;
+}
+.firstview__fig {
+    position: absolute;
+    width: 75%;
+    height: 220px;
+    background-color: darkblue;
+    top: 360px;
+    z-index: ;
+}
+
+
