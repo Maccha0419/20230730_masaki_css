@@ -23,28 +23,31 @@
 .firstview {
     position: relative;
     margin:60px 0 0px;
+    height: 100vh;
 }
 .firstview__img {
     position: absolute;
     width: 50%;
-    left: 50%;
-    display: block;
     z-index: 10;
+    left: 50%;
+    margin: 0;
 }
 .firstview__ttl {
+    margin: 0%;
     position: absolute;
     font-size: 70px;
     font-weight: lighter;
     margin: 0;
-    top: 270px;
+    top:35%;
 }
 .firstview__fig {
     position: absolute;
+    margin: 0%;
     width: 75%;
     height: 220px;
     background-color: darkblue;
-    top: 360px;
-    z-index: ;
+    top: 47%;
+    z-index: 0;
 }
 
 
